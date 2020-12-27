@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_url">
+    <ldap_server_url action="DELETE">
+        <active>true</active>
+        <operational_status>true</operational_status>
+        <order>100</order>
+        <server display_value="DemoLDAPIntegration">5ca6df992fd96010007aad2ef699b6a4</server>
+        <sys_class_name>ldap_server_url</sys_class_name>
+        <sys_created_by>chakras</sys_created_by>
+        <sys_created_on>2020-12-24 19:35:56</sys_created_on>
+        <sys_id>94289fd92fd96010007aad2ef699b6bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ldap://ldap.forumsys.com</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>ldap_server_url_94289fd92fd96010007aad2ef699b6bd</sys_update_name>
+        <sys_updated_by>chakras</sys_updated_by>
+        <sys_updated_on>2020-12-24 19:44:11</sys_updated_on>
+        <url>ldap://ldap.forumsys.com</url>
+    </ldap_server_url>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8d055477db75d7c40e785d00cf961932</instance_id>
+        <instance_name>dev58525</instance_name>
+        <name>ldap_server_url_94289fd92fd96010007aad2ef699b6bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_url"><ldap_server_url action="INSERT_OR_UPDATE"><active>true</active><operational_status>true</operational_status><order>100</order><server display_value="DemoLDAPIntegration">5ca6df992fd96010007aad2ef699b6a4</server><sys_class_name>ldap_server_url</sys_class_name><sys_created_by>chakras</sys_created_by><sys_created_on>2020-12-24 19:35:56</sys_created_on><sys_id>94289fd92fd96010007aad2ef699b6bd</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ldap://ldap.forumsys.com</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>ldap_server_url_94289fd92fd96010007aad2ef699b6bd</sys_update_name><sys_updated_by>chakras</sys_updated_by><sys_updated_on>2020-12-24 19:44:11</sys_updated_on><url>ldap://ldap.forumsys.com</url></ldap_server_url></record_update>]]></payload>
+        <payload_hash>1315295042</payload_hash>
+        <record_name>ldap://ldap.forumsys.com</record_name>
+        <reverted_from/>
+        <source>acafcb702fd52010007aad2ef699b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chakras</sys_created_by>
+        <sys_created_on>2020-12-24 19:44:11</sys_created_on>
+        <sys_id>090adfd92fd96010007aad2ef699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1769647b8320000001</sys_recorded_at>
+        <sys_updated_by>chakras</sys_updated_by>
+        <sys_updated_on>2020-12-24 19:44:11</sys_updated_on>
+        <type>LDAP Server URL</type>
+        <update_guid>410adfd901d96010340f50582d7f4e69</update_guid>
+        <update_guid_history>410adfd901d96010340f50582d7f4e69:1315295042,203817d976d960102f644d708e675bb6:1910684159,d8289fd90ad96010aa4efb8f385f69bf:1315295042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ldap://ldap.forumsys.com">b9c9fce92fdd6010007aad2ef699b654</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chakras</sys_created_by>
+        <sys_created_on>2020-12-25 02:42:33</sys_created_on>
+        <sys_db_object display_value="" name="ldap_server_url">ldap_server_url</sys_db_object>
+        <sys_id>26ab8d1268ff4ea48b239433e05dc804</sys_id>
+        <sys_metadata>94289fd92fd96010007aad2ef699b6bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ldap://ldap.forumsys.com</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>ldap_server_url_94289fd92fd96010007aad2ef699b6bd</sys_update_name>
+        <sys_update_version display_value="ldap_server_url_94289fd92fd96010007aad2ef699b6bd">090adfd92fd96010007aad2ef699b669</sys_update_version>
+        <sys_updated_by>chakras</sys_updated_by>
+        <sys_updated_on>2020-12-25 02:42:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

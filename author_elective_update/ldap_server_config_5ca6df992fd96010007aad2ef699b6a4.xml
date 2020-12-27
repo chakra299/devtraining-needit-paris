@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config">
+    <ldap_server_config action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <authenticate>true</authenticate>
+        <connect_timeout>10</connect_timeout>
+        <dn>cn=read-only-admin,dc=example,dc=com</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>true</listener>
+        <map/>
+        <mid_server/>
+        <name>DemoLDAPIntegration</name>
+        <paging>true</paging>
+        <password>MEyi3jQvb+N7MaSa+EyjGA==</password>
+        <rdn>dc=example,dc=com</rdn>
+        <read_timeout>30</read_timeout>
+        <server_url>ldap://ldap.forumsys.com</server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>chakras</sys_created_by>
+        <sys_created_on>2020-12-24 19:35:56</sys_created_on>
+        <sys_id>5ca6df992fd96010007aad2ef699b6a4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DemoLDAPIntegration</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>ldap_server_config_5ca6df992fd96010007aad2ef699b6a4</sys_update_name>
+        <sys_updated_by>chakras</sys_updated_by>
+        <sys_updated_on>2020-12-25 00:32:39</sys_updated_on>
+        <system_id>app131156.ycg3.service-now.com:dev58525004</system_id>
+        <vendor>active_directory</vendor>
+    </ldap_server_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8d055477db75d7c40e785d00cf961932</instance_id>
+        <instance_name>dev58525</instance_name>
+        <name>ldap_server_config_5ca6df992fd96010007aad2ef699b6a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config"><ldap_server_config action="INSERT_OR_UPDATE"><active>true</active><attributes/><authenticate>true</authenticate><connect_timeout>10</connect_timeout><dn>cn=read-only-admin,dc=example,dc=com</dn><dn_field/><listen_interval>5</listen_interval><listener>true</listener><map/><mid_server/><name>DemoLDAPIntegration</name><paging>true</paging><password>MEyi3jQvb+N7MaSa+EyjGA==</password><rdn>dc=example,dc=com</rdn><read_timeout>30</read_timeout><server_url>ldap://ldap.forumsys.com</server_url><ssl>false</ssl><sys_class_name>ldap_server_config</sys_class_name><sys_created_by>chakras</sys_created_by><sys_created_on>2020-12-24 19:35:56</sys_created_on><sys_id>5ca6df992fd96010007aad2ef699b6a4</sys_id><sys_mod_count>5</sys_mod_count><sys_name>DemoLDAPIntegration</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>ldap_server_config_5ca6df992fd96010007aad2ef699b6a4</sys_update_name><sys_updated_by>chakras</sys_updated_by><sys_updated_on>2020-12-25 00:32:39</sys_updated_on><system_id>app131156.ycg3.service-now.com:dev58525004</system_id><vendor>active_directory</vendor></ldap_server_config></record_update>]]></payload>
+        <payload_hash>-820824304</payload_hash>
+        <record_name>DemoLDAPIntegration</record_name>
+        <reverted_from/>
+        <source>acafcb702fd52010007aad2ef699b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chakras</sys_created_by>
+        <sys_created_on>2020-12-25 00:32:39</sys_created_on>
+        <sys_id>fe0c9ca52f9d6010007aad2ef699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176974fd2ca0000001</sys_recorded_at>
+        <sys_updated_by>chakras</sys_updated_by>
+        <sys_updated_on>2020-12-25 00:32:39</sys_updated_on>
+        <type>LDAP Server</type>
+        <update_guid>b60c9ca5fc9d60103a688e2f595383f8</update_guid>
+        <update_guid_history>b60c9ca5fc9d60103a688e2f595383f8:-820824304,414a5f1db4d960107df964b30b381c7c:1683188826,40d9135dd1d96010dae33508e2a8ebc6:-820824304,3328df99cdd96010155bdb2cd09c09b8:-1145319027,7b28df9942d96010091cd5522f25a6b6:806002636</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DemoLDAPIntegration">88d9fce92fdd6010007aad2ef699b698</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chakras</sys_created_by>
+        <sys_created_on>2020-12-25 02:42:43</sys_created_on>
+        <sys_db_object display_value="" name="ldap_server_config">ldap_server_config</sys_db_object>
+        <sys_id>1977da2074bf44eeaeb4fccbf7383304</sys_id>
+        <sys_metadata>5ca6df992fd96010007aad2ef699b6a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DemoLDAPIntegration</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>ldap_server_config_5ca6df992fd96010007aad2ef699b6a4</sys_update_name>
+        <sys_update_version display_value="ldap_server_config_5ca6df992fd96010007aad2ef699b6a4">fe0c9ca52f9d6010007aad2ef699b6f8</sys_update_version>
+        <sys_updated_by>chakras</sys_updated_by>
+        <sys_updated_on>2020-12-25 02:42:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
